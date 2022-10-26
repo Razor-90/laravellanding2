@@ -29,7 +29,7 @@
                 <div class="col-lg-12">
                     <div class="features-text section-header text-center">
                         <div>
-                            <h2 class="section-title">Services We Provide</h2>
+                            <h2 class="section-title">Services We Provide 1</h2>
                             <div class="desc-text">
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do <br> eiusmod tempor incididunt ut labore et dolore.</p>
                             </div>
