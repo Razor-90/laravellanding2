@@ -17,10 +17,13 @@ Route::group(['middleware'=>'web'], function (){
     Route::match(['get', 'post'],'/', ['uses'=>'IndexController@execute', 'as'=>'home']);
     Route::get('/page/{alias}', ['uses'=>'PageController@execute', 'as'=>'page']);
 
-    Route::auth();
 });
 
-Route::get(['prefix'=>'admin', 'middleware'=>'auth'], function (){
+Route::group(['middleware'	=>	'auth'], function(){
+
+});
+
+Route::group(['prefix'=>'admin', 'middleware'	=>	'admin'], function (){
 
     Route::get('/', function (){
 
